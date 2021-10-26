@@ -1,0 +1,80 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>YAO | Interest</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="content-page.css">
+</head>
+
+<body>
+
+    <div id="page-wrapper">
+        <header>
+            <nav>
+                <ul>
+                    <li id="YAO"><a href="../index.html"> | YAO XIAO | </a></li>
+                    <div id="break_nav"><br></div>
+                    <li><a href="education.html">Education</a></li>
+                    <li><a href="experience.html">Experience</a></li>
+                    <li><a href="internship.html">Internship</a></li>
+                    <li><a href="interest.html">Interest</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <h1>Interest</h1>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="card">
+                    <h2>Ultimate Frisbee</h2>
+                    <h5>Sep 25, 2016 - July 08, 2019</h5>
+                    <img src="../img_source/frisbee-group-photo.jpeg" alt="A photo of my frisbee team" class="center">
+                    <p> Ultimate frisbee is one of the training sports in my high school. As the co-founder of class
+                        frisbee team, I designed training program and promoted our team on social medias.
+                        To learn more tactics, I kept watching and analyzing the competitions from American Ultimate
+                        Disc League. My favorite team, Los Angeles Aviators, taught me a lot about skills, strategies
+                        and spirits in this game.
+                        Finally, I brought our team into Chinese college-level frisbee tournament.
+                        Even without professional training, we ended up as the second place among 16 teams in 2019.</p>
+                </div>
+            </div>
+            <hr>
+            <div class="col-lg-6">
+                <div class="card">
+                    <h2>Photography</h2>
+                    <h5>Oct 04, 2018 - Now</h5>
+                    <img src="../img_source/logi-mouse.JPG" alt="one of my photo of a mouse" class="center">
+                    <p> Once I got a camera as my birthday present, I started to record the good moment in my life. By
+                        freezing the memorable time, I can share my happiness with my friends or review these moments in
+                        the future. Taking pictures with camera is more complicated but more interesting than shooting
+                        with phones. With the help of internet, I learned lots of knowledge about aperture, shutter
+                        speed, ISO, focal length, composition, retouching, and so on from various photographers. To
+                        practice these theorical knowledge, I took thousands of photos with my own camera on each trip
+                        or just in daily life. I have posted some of them on my online gallery.
+                        <a href="gallery-page.html">Check my pictures here</a>!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p id="footerText"></p>
+        <script>
+            let d = new Date();
+            let year = d.getFullYear();
+            console.log(year);
+            document.getElementById("footerText").innerHTML = "Copyright &copy; " + year + " by Yao Xiao";    
+        </script>
+        <div id="credits">
+            <a href="credit.html">| Credits |</a>
+        </div>
+    </footer>
+    </div>
+</body>
+
+</html>

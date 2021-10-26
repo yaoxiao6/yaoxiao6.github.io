@@ -1,0 +1,119 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Photography | Gallery</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link href="dist/jquery.fancybox.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="content-page.css">
+</head>
+
+<body>
+
+    <div id="page-wrapper">
+        <header>
+            <nav>
+                <ul>
+                    <li id="YAO"><a href="../index.html"> | YAO XIAO | </a></li>
+                    <div id="break_nav"><br></div>
+                    <li><a href="education.html">Education</a></li>
+                    <li><a href="experience.html">Experience</a></li>
+                    <li><a href="internship.html">Internship</a></li>
+                    <li><a href="interest.html">Interest</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <h1>Photo Gallery</h1>
+
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="col-lg-4 col-md-8 col-sm-8 gallary-img">
+                    <a href="../gimag/1-whbc-basket.jpg" data-fancybox="images" data-caption="A basketball stand in my high school"
+                        alt="A basketball stand in my high school">
+                        <img src="../gimag/1-whbc-basket.jpg" class="img-fluid">
+                    </a>
+                </div>
+
+                <div class="col-lg-4 col-md-8 col-sm-8 gallary-img">
+                    <a href="../gimag/2-temple-dog.jpg" data-fancybox="images" data-caption="A sculpture on the eave"
+                        alt="A sculpture on the eave">
+                        <img src="../gimag/2-temple-dog.jpg" class="img-fluid">
+                    </a>
+                </div>
+
+                <div class="col-lg-4 col-md-8 col-sm-8 gallary-img">
+                    <a href="../gimag/3-temple-house.jpg" data-fancybox="images" data-caption="A eave on a temple"
+                        alt="A eave on a temple">
+                        <img src="../gimag/3-temple-house.jpg" class="img-fluid">
+                    </a>
+                </div>
+
+                <div class="col-lg-4 col-md-8 col-sm-8 gallary-img">
+                    <a href="../gimag/4-quncy-market.jpg" data-fancybox="images" data-caption="The Quincy market"
+                        alt="The Quincy market">
+                        <img src="../gimag/4-quncy-market.jpg" class="img-fluid">
+                    </a>
+                </div>
+
+                <div class="col-lg-4 col-md-8 col-sm-8 gallary-img">
+                    <a href="../gimag/5-lzj.jpg" data-fancybox="images" data-caption="A portrait of my friend at Boston College"
+                        alt="A portrait of my friend at Boston College">
+                        <img src="../gimag/5-lzj.jpg" class="img-fluid">
+                    </a>
+                </div>
+
+                <div class="col-lg-4 col-md-8 col-sm-8 gallary-img">
+                    <a href="../gimag/6-lobster.jpg" data-fancybox="images" data-caption="A cooked lobster"
+                        alt="A cooked lobster">
+                        <img src="../gimag/6-lobster.jpg" class="img-fluid">
+                    </a>
+                </div>
+
+                <div class="col-lg-4 col-md-8 col-sm-8 gallary-img">
+                    <a href="../gimag/7-fruit.jpg" data-fancybox="images" data-caption="A fruit stand"
+                        alt="A fruit stand">
+                        <img src="../gimag/7-fruit.jpg" class="img-fluid">
+                    </a>
+                </div>
+
+                <div class="col-lg-4 col-md-8 col-sm-8 gallary-img">
+                    <a href="../gimag/8-sunset-west-campus-lake.jpg" data-fancybox="images" data-caption="Sunset at west campus in BU"
+                        alt="Sunset at west campus in BU">
+                        <img src="../gimag/8-sunset-west-campus-lake.jpg" class="img-fluid">
+                    </a>
+                </div>
+
+                <div class="col-lg-4 col-md-8 col-sm-8 gallary-img">
+                    <a href="../gimag/9-sunset-westcampus-spry.jpg" data-fancybox="images" data-caption="Sunset at west campus in BU"
+                        alt="Sunset at west campus in BU">
+                        <img src="../gimag/9-sunset-westcampus-spry.jpg" class="img-fluid">
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+        <footer>
+            <p id="footerText"></p>
+            <script>
+                let d = new Date();
+                let year = d.getFullYear();
+                console.log(year);
+                document.getElementById("footerText").innerHTML = "Copyright &copy; " + year + " by Yao Xiao";    
+            </script>
+            <div id="credits">
+                <a href="credit.html">| Credits |</a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="dist/jquery.fancybox.min.js"></script>
+</body>
+
+</html>

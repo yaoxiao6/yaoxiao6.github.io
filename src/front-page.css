@@ -1,0 +1,202 @@
+* {
+  margin: auto;
+  color: #2a6087;
+  font-size: calc(5px + 1vw);
+  font-family: "Lucida Grande", Arial, sans-serif;
+}
+
+.learn-more {
+  border: solid 3px #2a6087;
+  display: inline-block;
+  background-color: white;
+  padding: 1%;
+  border-radius: 15px;
+}
+
+.learn-more:hover {
+  background-color: rgb(204, 229, 250);
+}
+
+p {
+  text-align: left;
+}
+
+/* welcome page */
+
+.welcome_page {
+  position: relative;
+  text-align: center;
+  color: white;
+  background-color: #2a6087;
+}
+
+header h1 {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  font-size: 5vw;
+  color: white;
+}
+
+header p {
+  position: absolute;
+  top: 40%;
+  left: 65%;
+  color: white;
+  font-size: 2vw;
+}
+
+/* nav bar */
+
+nav {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-top: 2vw;
+  font-size: 20px;
+  width: 100%;
+}
+
+nav ul li {
+  display: inline;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+li#YAO a {
+  color: white;
+  font-size: calc(10px + 2.5vw);
+}
+
+nav ul li a {
+  color: white;
+  font-size: calc(10px + 1.5vw);
+}
+
+a:hover,
+.blue_back h2 a:hover,
+.white_back h2 a:hover {
+  color: grey;
+  text-decoration: none;
+}
+#YAO a:hover {
+  color: grey;
+}
+
+/* background for the welcome page */
+
+.front-pic {
+  display: block;
+  width: 100%;
+  opacity: 0.8;
+  filter: brightness(80%);
+}
+
+/* content material for below */
+
+.blue_back {
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  background-color: #2a6087;
+  text-align: center;
+}
+
+.blue_back h2,
+.blue_back h2 a {
+  color: white;
+  font-size: calc(30px + 1vw);
+}
+
+.white_back h2,
+.white_back h2 a {
+  color: #2a6087;
+  font-size: calc(30px + 1vw);
+}
+
+.white_back {
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  background-color: white;
+  text-align: center;
+  color: #2a6087;
+}
+
+.white_back .insert_pic {
+  width: 110%;
+  height: auto;
+  float: left;
+}
+
+.blue_back .insert_pic {
+  /* width: calc(150px + 50%); */
+  width: 110%;
+  height: auto;
+  float: right;
+}
+
+#cards {
+  background-color: white;
+  color: #2a6087;
+  padding: 2vw;
+  margin: 3vw;
+  font-size: calc(10px+1vw);
+  text-align: left;
+}
+
+#cards ol li a {
+  color: #2a6087;
+  font-size: calc(10px+1vw);
+}
+
+div#credits {
+  text-align: center;
+  color: white;
+}
+
+div#credits a {
+  color: white;
+}
+#credits a:hover {
+  color: black;
+}
+footer {
+  background-color: #2a6087;
+  text-align: center;
+  color: white;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+footer p {
+  text-align: center;
+  color: white;
+  font-size: calc(2px + 0.8vw);
+  padding-top: 3%;
+  background-color: #2a6087;
+}
+
+footer a {
+  text-align: center;
+  color: #2a6087;
+  font-size: calc(2px + 0.8vw);
+}
+
+#small_screen {
+  display: none;
+}
+
+@media screen and (max-width: 850px) {
+  #large_screen {
+    display: none;
+  }
+
+  #small_screen {
+    margin-top: 50px;
+    display: block;
+  }
+}
